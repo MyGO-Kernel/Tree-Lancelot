@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_lancelot.mk
+    $(LOCAL_DIR)/fuse_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_lancelot-user \
-    superior_lancelot-userdebug \
-    superior_lancelot-eng
+    fuse_lancelot-user \
+    fuse_lancelot-userdebug \
+    fuse_lancelot-eng

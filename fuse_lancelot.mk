@@ -17,9 +17,9 @@ SUPERIOR_GAPPS := minimal
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/fuse/config/common.mk)
 
-PRODUCT_NAME := superior_lancelot
+PRODUCT_NAME := fuse_lancelot
 PRODUCT_DEVICE := lancelot
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
